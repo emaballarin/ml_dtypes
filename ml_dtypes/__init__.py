@@ -17,7 +17,7 @@ __all__ = [
     "__version__",
     "bfloat16",
     "finfo",
-    'float8_e4m3b11',
+    "float8_e4m3b11",
     "float8_e4m3b11fnuz",
     "float8_e4m3fn",
     "float8_e4m3fnuz",

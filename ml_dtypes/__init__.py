@@ -24,7 +24,9 @@ __all__ = [
     "float8_e5m2",
     "float8_e5m2fnuz",
     "iinfo",
+    "int2",
     "int4",
+    "uint2",
     "uint4",
 ]
 
@@ -39,7 +41,9 @@ from ml_dtypes._ml_dtypes_ext import float8_e4m3fn
 from ml_dtypes._ml_dtypes_ext import float8_e4m3fnuz
 from ml_dtypes._ml_dtypes_ext import float8_e5m2
 from ml_dtypes._ml_dtypes_ext import float8_e5m2fnuz
+from ml_dtypes._ml_dtypes_ext import int2
 from ml_dtypes._ml_dtypes_ext import int4
+from ml_dtypes._ml_dtypes_ext import uint2
 from ml_dtypes._ml_dtypes_ext import uint4
 import numpy as np
 
@@ -50,7 +54,9 @@ float8_e4m3fn: Type[np.generic]
 float8_e4m3fnuz: Type[np.generic]
 float8_e5m2: Type[np.generic]
 float8_e5m2fnuz: Type[np.generic]
+int2: Type[np.generic]
 int4: Type[np.generic]
+uint2: Type[np.generic]
 uint4: Type[np.generic]
 
 del np, Type

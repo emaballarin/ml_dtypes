@@ -22,7 +22,7 @@ __all__ = [
     "float6_e3m2fn",
     "float8_e3m4",
     "float8_e4m3",
-    'float8_e4m3b11',
+    "float8_e4m3b11",
     "float8_e4m3b11fnuz",
     "float8_e4m3fn",
     "float8_e4m3fnuz",
